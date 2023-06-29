@@ -1,10 +1,10 @@
 # Diving-Into-Regex
 
-Introductory paragraph (replace this with your text)
+This is a helpful tutorial to understand all the different regex patterns better. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex is a feature or tool within programming languages that help with pattern matching.
 
 ## Table of Contents
 
@@ -24,7 +24,17 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+These two characters are considered anchors, '^', and '$'. The upper arrow '^' signifies the start as well as the dollar sign; '$' is the end. The two anchors are used to define the position.
+
+'^' - Starting
+
+'$' - End
+
+EXAMPLE - 
+
 ### Quantifiers
+
+
 
 ### OR Operator
 
