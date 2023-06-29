@@ -24,7 +24,7 @@ Regex is a feature or tool within programming languages that help with pattern m
 
 ### Anchors
 
-These two characters are considered anchors, '^', and '$'. The upper arrow '^' signifies the start as well as the dollar sign; '$' is the end. The two anchors are used to define the position.
+These two characters are considered anchors, '^', and '$'. The upper arrow '^' signifies the start as well as the dollar sign; '$' is the end. The two anchors are used to define the position. 
 
 '^' - Starting
 
@@ -34,6 +34,21 @@ EXAMPLE -
 
 ### Quantifiers
 
+This allows us to define the number of the same in a pattern.
+
+'*' - Pattern matches zero or more
+
+'+' - Pattern matches one or more
+
+'?' - Pattern matches zero or once
+
+{} - This allows setting different limits when matching
+
+'{n}' - 'n' Represents the exact number of times that a pattern matches 
+
+'{n, }' 'n' Represents the close to the number of times that a pattern matches 
+
+'{n, x }' 'n' Represents the minimum number of pattern matches, and 'x' represents the max.
 
 
 ### OR Operator
