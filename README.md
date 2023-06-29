@@ -24,21 +24,20 @@ Regex is a feature or tool within programming languages that help with pattern m
 
 ### Anchors
 
-These two characters are considered anchors, '^', and '$'. The upper arrow '^' signifies the start as well as the dollar sign; '$' is the end. The two anchors are used to define the position. 
+Anchors are two characters: '^' and '$'. The caret '^' represents the start position, and the dollar sign '$' represents the end position. These anchors are used to define the position of a pattern within a string.
 
 '^' - Starting
 
 '$' - End
 
-EXAMPLE - 
 
 ### Quantifiers
 
-This allows us to define the number of the same in a pattern.
+Quantifiers allow us to define the number of occurrences of a pattern.
 
-'*' - Pattern matches zero or more
+'*' - Pattern matches zero or more times
 
-'+' - Pattern matches one or more
+'+' - Pattern matches one or more times
 
 '?' - Pattern matches zero or once
 
@@ -48,26 +47,61 @@ This allows us to define the number of the same in a pattern.
 
 '{n, }' 'n' Represents the close to the number of times that a pattern matches 
 
-'{n, x }' 'n' Represents the minimum number of pattern matches, and 'x' represents the max.
+'{n, x }' 'n' Represents the minimum number of pattern matches, and 'x' represents the maximum
+
 
 
 ### OR Operator
 
+The OR operator, represented by the '|' symbol, allows for specifying alternative patterns. It matches either the pattern on the left or the pattern on the right.
+
+
 ### Character Classes
+
+Character classes define sets of characters to match. They are enclosed in square brackets '[]' and allow matching any single character within the defined set.
+
+'.' - Matches with any character, excluding; '(\n)
+
+'\d' - Matches with numbers like, '0-9'
+
+'\w' - Matches with characters from the Latin alphabet like, '0-9', 'A-Z', and '_'
+
+'\s' - Matches whitespace characters, including spaces, tabs, and newline characters.
+
 
 ### Flags
 
+Flags are optional parameters that modify the behavior of a regex pattern. They provide additional functionality such as case-insensitive matching ('i' flag) or multiline mode ('m' flag).
+
+'g' -
+
+'i' -
+
+'m' -
+
 ### Grouping and Capturing
+
+Parentheses '()' are used for grouping patterns and capturing matched content for later use.
 
 ### Bracket Expressions
 
+Bracket expressions '[...]' are similar to character classes but provide more advanced matching options. They allow matching characters based on collating sequences or character properties.
+
 ### Greedy and Lazy Match
+
+By default, regex matches are greedy, meaning they try to match as much as possible. Adding a '?' after a quantifier makes it lazy, matching as little as possible.
 
 ### Boundaries
 
+Boundaries allow matching specific positions in a string, such as word boundaries or line boundaries.
+
 ### Back-references
 
+Back-references allow referring back to a previously captured group within the regex pattern.
+
 ### Look-ahead and Look-behind
+
+Look-ahead and look-behind assertions allow checking if a pattern is followed or preceded by another pattern without including it in the actual match.
 
 ## Author
 
