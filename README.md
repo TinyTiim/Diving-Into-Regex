@@ -105,4 +105,5 @@ Look-ahead and look-behind assertions allow checking if a pattern is followed or
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Github-TinyTiim
+Gmail-Sophia.palomo12@gmail.com
